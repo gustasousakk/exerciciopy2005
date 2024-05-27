@@ -1,0 +1,11 @@
+texto = input("Digite uma palavra ou frase: ")
+texto= texto.upper()
+ocorrencias = {}
+for letra in texto:
+    if letra in ocorrencias:
+        ocorrencias[letra] += 1
+    else:
+        ocorrencias[letra] = 1
+print("Quantidade de vezes que cada letra aparece na string:")
+for letra, quantidade in ocorrencias.items():
+    print("A letra", letra, "aparece", quantidade, "vezes.")
