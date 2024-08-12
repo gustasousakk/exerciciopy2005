@@ -6,6 +6,5 @@ for letra in texto:
         ocorrencias[letra] += 1
     else:
         ocorrencias[letra] = 1
-print("Quantidade de vezes que cada letra aparece na string:")
 for letra, quantidade in ocorrencias.items():
-    print("A letra", letra, "aparece", quantidade, "vezes.")
+    print(f"A letra {letra} aparece {quantidade} vezes.")
