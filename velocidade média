@@ -1,0 +1,3 @@
+distancia= int(input("distancia: "))
+tempo= int(input("tempo:"))
+print(f"velocidade média: {distancia/tempo}")
