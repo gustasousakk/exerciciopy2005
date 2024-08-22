@@ -1,0 +1,4 @@
+salAtual=float(input("seu salário="))
+salComissão = (salAtual/100) * 5
+print(f"sua comissão é de {salComissão}")
+print(f"assim ficando {salComissão+salAtual}")
